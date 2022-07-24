@@ -1,0 +1,31 @@
+site_name: "SixtyForever"
+site_title: "Sixty-forever"
+tab_title_separator: " - "
+
+router_c:
+  - {path: '/', name: "Home", component: "Home", meta: "index"}
+  - {path: '/about', name: "About", component: "About"}
+  - {path: '/alumni', name: "Alumni", component: "Alumni"}
+
+navbar:
+  menu:
+    - {key: "Home", link: "/", name: "Home", icon: "fa-solid fa-house"}
+    - {key: "Alumni", link: "/alumni", name: "Alumni", icon: "fa-solid fa-address-card"}
+    - {key: "About", link: "/about", name: "About", icon: "fa-regular fa-heart"}
+
+default:
+  banner:
+    background_img: "./source/68686407_p0.jpeg"
+    banner_img_height: 70
+    sub_title: "似乎没有标题捏"
+    tip: ""
+
+index:
+  banner:
+    background_img: "./source/68686407_p0.jpeg"
+    sub_title: "致最好的我们"
+    banner_img_height: 100
+    tip: "「逝去的终是最刻骨铭心的」"
+
+player:
+  enabled: "true"
