@@ -34,3 +34,10 @@ body {
 ::-webkit-scrollbar-track-piece{
     color: var(--grey-0);
 }
+
+@font-face {
+    font-family: "FZSJSJW";
+    src: url('./source/font/FZSJSJW.TTF');
+    font-weight: normal;
+    font-style: normal;
+}

@@ -7,7 +7,7 @@
           v-observe-visibility="{ callback: visibilityChanged, once: true }"
           data-animate="animate__animated  animate__fadeIn"
         >
-          <h4>永遇乐•梦别</h4>
+          <h3>永遇乐•梦别</h3>
           <p>秋月凌空，天江一色，沉暮昏醉。</p>
           <p>玉露沾衣，霜风破泪，上下无限水。</p>
           <p>沙沙曳曳，凄凄切切，千瓣苦花飘坠。</p>
@@ -50,8 +50,16 @@ export default {
   color: transparent;
   flex-direction: column;
   justify-content: center;
+  font-family: "FZSJSJW";
   &.animate__animated {
     color: var(--text-color);
+  }
+  p{
+    font-size: 1.25em;
+    font-weight: 600;
+  }
+  h3{
+    font-weight: 800;
   }
 }
 @media (max-width: 991px) {
@@ -62,6 +70,10 @@ export default {
     display: block;
     p {
       margin-bottom: 0.7rem;
+      font-weight: 600;
+    }
+    h3{
+      font-weight: 800;
     }
   }
 }

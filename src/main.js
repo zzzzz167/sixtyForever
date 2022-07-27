@@ -3,17 +3,19 @@ import App from './App.vue'
 import { createRouter, createWebHashHistory } from 'vue-router'
 import axios from 'axios'
 import yaml from 'js-yaml'
+import lazyPlugin from 'vue3-lazy'
 import "bootstrap/dist/css/bootstrap.min.css"
 import "bootstrap"
 import 'animate.css'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-import { faUserSecret, faHouse, faSun, faMoon, faAngleDown, faUpLong, faAddressCard } from '@fortawesome/free-solid-svg-icons'
+import { faUserSecret, faHouse, faSun, faMoon, faAngleDown, faUpLong, faAddressCard, faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faHeart } from '@fortawesome/free-regular-svg-icons'
+import { faWeixin, faQq } from '@fortawesome/free-brands-svg-icons'
 import VueObserveVisibility from 'vue3-observe-visibility'
 import "./styles/index.scss"
 
-library.add(faUserSecret, faHouse, faHeart, faSun, faMoon, faAngleDown, faUpLong, faAddressCard)
+library.add(faUserSecret, faHouse, faHeart, faSun, faMoon, faAngleDown, faUpLong, faAddressCard, faWeixin, faQq, faEnvelope)
 
 const app = createApp(App)
 
@@ -68,6 +70,10 @@ axios.get("./yaml/_config.yaml")
         app.use(router)
         app.use(VueObserveVisibility)
         app.component('font-awesome-icon', FontAwesomeIcon)
+        app.use(lazyPlugin, {
+            loading: "./source/img/load.gif",
+            error: "./source/img/404.png"
+        })
         app.mount('#app')
         console.log('%c Xiao v1.0 %c https://www.ailliom.xyz ', 'color: white; background: #e9546b; padding:5px 0;', 'padding:4px;border:1px solid #e9546b;')
     })

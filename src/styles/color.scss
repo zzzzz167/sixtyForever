@@ -44,6 +44,9 @@
     --body-bg-shadow: var(--grey-2);
     --box-bg-shadow: var(--grey-9-a1);
     --text-color: var(--grey-7);
+    --loding: var(--color-pink);
+    --card-bg: var(--grey-1);
+    --card-bg-shadow: var(--grey-4);
 
     --primary-color: var(--color-red);
     --navbar-glass-px: 3px;
@@ -73,8 +76,8 @@
         --color-pink-light: shade(#ffe6fa, 80%);
         --color-cyan-light: shade(#e3fdf5, 80%);
 
-        --color-red: #f8c9db;
-        --color-pink: alpha(lighten(#ed6ea0, 20%), .8);
+        --color-red: #f5aeb9;
+        --color-pink: #f8c9db;
         --color-orange: alpha(lighten(#ec8c69, 20%), .8);
         --color-yellow: lighten(#eab700, 50%);
         --color-green: lighten(#316745, 50%);

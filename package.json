@@ -24,6 +24,7 @@
     "popper.js": "^1.16.1",
     "vue": "^3.2.37",
     "vue-router": "^4.1.2",
+    "vue3-lazy": "^1.0.0-alpha.1",
     "vue3-observe-visibility": "^0.1.2"
   },
   "devDependencies": {
