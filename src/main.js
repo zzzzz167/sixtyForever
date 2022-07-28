@@ -51,7 +51,8 @@ axios.get("./yaml/_config.yaml")
                     sub_title: banner["sub_title"],
                     tip: banner["tip"],
                     banner_img_height: banner["banner_img_height"],
-                    title: (rou_configs[rou_config]['name'] == "Home") ? data["site_name"] : rou_configs[rou_config]['name'] + data["tab_title_separator"] + data["site_name"]
+                    title: (rou_configs[rou_config]['name'] == "Home") ? data["site_name"] : rou_configs[rou_config]['name'] + data["tab_title_separator"] + data["site_name"],
+                    comments: data[router_meta]["comment"] || false
                 }
             }
             routes.push(route_one)

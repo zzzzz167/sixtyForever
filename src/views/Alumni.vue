@@ -3,7 +3,7 @@
     <h2 class="text-center">Team of us</h2>
     <p class="text-center">顺序不固定,每次刷新排序均会不同</p>
     <div class="container">
-      <div v-if="!isGet" class="row justify-content-center">
+      <div v-if="!isGet" class="row justify-content-center p-5">
         <div
           v-for="member in members"
           :key="member.id"
@@ -29,6 +29,15 @@
             </ul>
           </div>
         </div>
+        <p class="text-center text-primary mt-5">
+          由于某些不可抗力因素,这并不是一份完整的同学录,所以,还请那些没有找到组织的同学,在下面留下你的名字,和头像图片,以及一句话的简单介绍,我看到后会及时将你们加上的
+        </p>
+        <p class="text-center">tip:网站不是必填项哦</p>
+        <p class="text-center">收集进度</p>
+        <div class="progress col-lg-8 p-0">
+          <div class="progress-bar progress-bar-striped" :style="progress"></div>
+        </div>
+        <comment class="col-lg-10 p-0 mt-4"></comment>
       </div>
       <div v-else-if="isGet" class="row lod justify-content-center">
         <div v-for="n in 6" :key="n" class="spinner-grow"></div>
@@ -41,12 +50,17 @@
 <script>
 import axios from "axios";
 import yaml from "js-yaml";
+import comment from "../components/comment.vue";
 
 export default {
+  components: {
+    comment,
+  },
   data() {
     return {
       isGet: true,
       members: {},
+      progress: "width: 0%"
     };
   },
   mounted() {
@@ -57,6 +71,7 @@ export default {
       });
       this.isGet = false;
       this.members = data;
+      this.progress = `width: ${(data.length / 50).toFixed(5) * 100}%`
     });
   },
 };
@@ -154,6 +169,10 @@ export default {
       }
     }
   }
+}
+
+.progress-bar{
+  background-color: var(--loding);
 }
 
 @media (max-width: 800px) {
