@@ -41,4 +41,6 @@ jobs:
         access-key-secret: ${{ secrets.OSS_KEY_SECRET }}
         
     - name: cp files to aliyun
-      run: ossutil cp -rf ./ oss://sixty-forever/
+      run: |
+        ossutil rm oss://sixty-forever/ -r
+        ossutil cp -rf ./dist oss://sixty-forever/
