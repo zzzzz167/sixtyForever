@@ -5,3 +5,27 @@
   socializing:
     - {key: "qq", link: "http://www.qq.com", icon: "fa-brands fa-qq"}
     - {key: "wechat", link: "http://www.wechat.com", icon: "fa-brands fa-weixin"}
+
+- name: Xiao
+  id: 2
+  introduce: 语言的边界即是世界的边界
+  avatar: "https://blog.ailliom.xyz/images/avatar.jpeg"
+  socializing:
+    - {key: "qq", link: "http://www.qq.com", icon: "fa-brands fa-qq"}
+    - {key: "wechat", link: "http://www.wechat.com", icon: "fa-brands fa-weixin"}
+
+- name: Xiao
+  id: 3
+  introduce: 语言的边界即是世界的边界
+  avatar: "https://blog.ailliom.xyz/images/avatar.jpeg"
+  socializing:
+    - {key: "qq", link: "http://www.qq.com", icon: "fa-brands fa-qq"}
+    - {key: "wechat", link: "http://www.wechat.com", icon: "fa-brands fa-weixin"}
+
+- name: Xiao
+  id: 4
+  introduce: 语言的边界即是世界的边界
+  avatar: "https://blog.ailliom.xyz/images/avatar.jpeg"
+  socializing:
+    - {key: "qq", link: "http://www.qq.com", icon: "fa-brands fa-qq"}
+    - {key: "wechat", link: "http://www.wechat.com", icon: "fa-brands fa-weixin"}
