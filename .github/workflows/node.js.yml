@@ -42,5 +42,5 @@ jobs:
         
     - name: cp files to aliyun
       run: |
-        ossutil rm oss://sixty-forever/ -r -y
+        ossutil rm oss://sixty-forever/ -rf
         ossutil cp -rf ./dist oss://sixty-forever/
