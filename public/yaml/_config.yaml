@@ -31,7 +31,7 @@ alumni:
   banner:
     background_img: "./source/68686407_p0.jpeg"
     sub_title: "我和你"
-    banner_img_height: 100
+    banner_img_height: 70
     tip: "我 + 你 = 我们"
   comment: true
 

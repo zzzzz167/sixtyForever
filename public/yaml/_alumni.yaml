@@ -1,31 +1,63 @@
-- name: Xiao
+- name: 李建鑫
   id: 1
   introduce: 语言的边界即是世界的边界
-  avatar: "https://blog.ailliom.xyz/images/avatar.jpeg"
+  avatar: "http://q1.qlogo.cn/g?b=qq&nk=2742400566&s=640"
   socializing:
     - {key: "qq", link: "http://www.qq.com", icon: "fa-brands fa-qq"}
     - {key: "wechat", link: "http://www.wechat.com", icon: "fa-brands fa-weixin"}
 
-- name: Xiao
+- name: 付天宁
   id: 2
-  introduce: 语言的边界即是世界的边界
-  avatar: "https://blog.ailliom.xyz/images/avatar.jpeg"
+  introduce: 嗨嗨嗨，你60班最帅的帅哥来啦!
+  avatar: "http://q1.qlogo.cn/g?b=qq&nk=2377201160&s=640"
   socializing:
     - {key: "qq", link: "http://www.qq.com", icon: "fa-brands fa-qq"}
     - {key: "wechat", link: "http://www.wechat.com", icon: "fa-brands fa-weixin"}
 
-- name: Xiao
+- name: 郑兴
   id: 3
-  introduce: 语言的边界即是世界的边界
-  avatar: "https://blog.ailliom.xyz/images/avatar.jpeg"
+  introduce: 这里是AKA.DZG，期盼成为下一个rap star
+  avatar: "http://q1.qlogo.cn/g?b=qq&nk=996976658&s=640"
   socializing:
     - {key: "qq", link: "http://www.qq.com", icon: "fa-brands fa-qq"}
     - {key: "wechat", link: "http://www.wechat.com", icon: "fa-brands fa-weixin"}
 
-- name: Xiao
+- name: 杨铭崴
   id: 4
-  introduce: 语言的边界即是世界的边界
-  avatar: "https://blog.ailliom.xyz/images/avatar.jpeg"
+  introduce: 啥也不是
+  avatar: "http://q1.qlogo.cn/g?b=qq&nk=3613095655&s=640"
+  socializing:
+    - {key: "qq", link: "http://www.qq.com", icon: "fa-brands fa-qq"}
+    - {key: "wechat", link: "http://www.wechat.com", icon: "fa-brands fa-weixin"}
+
+- name: 高迁
+  id: 5
+  introduce: 今晚的夜色很美。所以，KKP？
+  avatar: "http://q1.qlogo.cn/g?b=qq&nk=1215182533&s=640"
+  socializing:
+    - {key: "qq", link: "http://www.qq.com", icon: "fa-brands fa-qq"}
+    - {key: "wechat", link: "http://www.wechat.com", icon: "fa-brands fa-weixin"}
+
+- name: 佟冠纬
+  id: 6
+  introduce: 一位路过的麻瓜“阿瓦达啃大瓜”
+  avatar: "http://q1.qlogo.cn/g?b=qq&nk=1827254849&s=640"
+  socializing:
+    - {key: "qq", link: "http://www.qq.com", icon: "fa-brands fa-qq"}
+    - {key: "wechat", link: "http://www.wechat.com", icon: "fa-brands fa-weixin"}
+
+- name: 刁俊哲
+  id: 7
+  introduce: A nobody
+  avatar: "http://q1.qlogo.cn/g?b=qq&nk=2733789106&s=640"
+  socializing:
+    - {key: "qq", link: "http://www.qq.com", icon: "fa-brands fa-qq"}
+    - {key: "wechat", link: "http://www.wechat.com", icon: "fa-brands fa-weixin"}
+
+- name: 张子墨
+  id: 8
+  introduce: 山水一程，感谢任何人来过
+  avatar: "http://q1.qlogo.cn/g?b=qq&nk=1693424454&s=640"
   socializing:
     - {key: "qq", link: "http://www.qq.com", icon: "fa-brands fa-qq"}
     - {key: "wechat", link: "http://www.wechat.com", icon: "fa-brands fa-weixin"}

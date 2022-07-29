@@ -1,6 +1,9 @@
 <template>
   <div class="about">
-    <h1>This is an about page  还没有写完,预计7.31竣工</h1>
+    <div class="container-fluid mt-5 about">
+
+      
+    </div>
   </div>
 </template>
 
