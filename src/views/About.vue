@@ -1,8 +1,9 @@
 <template>
   <div class="about">
     <div class="container-fluid mt-5 about">
-
-      
+      <div class="container">
+        
+      </div>
     </div>
   </div>
 </template>
