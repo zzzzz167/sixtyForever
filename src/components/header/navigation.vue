@@ -217,6 +217,7 @@ export default {
         left: 50%;
         transform: translateX(-50%);
         background-color: currentColor;
+        transition: all .4s ease-in-out 0s;
       }
     }
     .router-active::before {

@@ -49,7 +49,7 @@
 - name: 刁俊哲
   id: 7
   introduce: A nobody
-  avatar: "http://q1.qlogo.cn/g?b=qq&nk=2733789106&s=640"
+  avatar: "http://q1.qlogo.cn/g?b=qq&nk=839353825&s=640"
   socializing:
     - {key: "qq", link: "http://www.qq.com", icon: "fa-brands fa-qq"}
     - {key: "wechat", link: "http://www.wechat.com", icon: "fa-brands fa-weixin"}
